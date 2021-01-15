@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ede7f6;
+}
+
+.miranav{
+    background-color: #1a237e; 
+    padding:10px;
+}
+
+.miranav a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 23px;
+    color: white;
+}
+
+.miranav img{
+    width: 40px;
+}
+
+.mirabody{
+    text-align: center;
+    padding: 50px;
+}
+
+.mirabody h2{
+    color: #1a237e;
+}
+
+.miraform{
+    background-color: white;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    height: 260px;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+
+.miraform input[type=text]{
+    border: none;
+    border-bottom: 1px solid rgb(173, 171, 175);
+    padding-top: 65px;
+    width: 430px;
+    outline: 0;
+}
+
+.miraform input[type=text]:focus-within{
+    border-bottom: 1px solid indigo;
+}
+
+
+.miraform input[value]{
+    font-size: 15px;
+}
+
+.miraform input[value]:focus-within{
+    color: #1a237e;
+    top: 0;
+    transition: 0.2s all;
+} 
+
+.mirabutton{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.mirabutton button{
+    width: 200px;
+    height: 40px;
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.miraforgot{
+    padding: 20px;
+}
+
+.miraforgot a{
+    text-decoration: none;
+    /* font-size: 14px !important; */
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    /* line-height: 20px; */
+}
+
+
+/* .mirainput{
+    position: relative;
+    border-bottom: 1px solid black;
+    margin: 30px 0;
+}
+
+.mirainput input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.mirainput label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.mirainput span::before{
+    content: '';
+    position: absolute;
+    top:40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transition: .5s;
+}
+
+.mirainput input:focus ~ label,
+.mirainput input:valid ~ label{
+    top: -5px;
+    color: #1a237e;
+}
+
+.mirainput input:focus ~ span::before,
+.mirainput input:valid ~ span::before{
+    width: 100%;
+
+} */
